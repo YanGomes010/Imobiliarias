@@ -28,8 +28,7 @@ import logo from "./cedro_logo.png"
 const WEBHOOK_URL = process.env.REACT_APP_N8N_WEBHOOK_URL;
 
 const API_KEY = process.env.REACT_APP_N8N_API_KEY;
-console.log("WEBHOOK_URL:", WEBHOOK_URL);
-console.log("API_KEY:", API_KEY);
+
 // Função auxiliar para injetar a segurança em todas as chamadas
 const getHeaders = () => ({
   'Accept': 'application/json',
