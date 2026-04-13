@@ -258,7 +258,7 @@ function LoginScreen({ onLogin }) {
             <img src={logo} alt="Cedro"  className='mx-auto w-24 h-16 mb-6 drop-shadow-md'/>
           </div>
           <h2 className="text-4xl font-black tracking-[-0.05em] text-slate-800">
-  <span className="text-slate-900 text-white">Ce</span>
+  <span className="text-slate-900">Ce</span>
   <span className="bg-gradient-to-r from-[#14532D] to-[#15803D] bg-clip-text text-transparent">
     dro
   </span>
