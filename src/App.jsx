@@ -25,9 +25,9 @@ import {
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, ResponsiveContainer } from 'recharts';
 import logo from "./cedro_logo.png"
 
-const WEBHOOK_URL = process.env.REACT_APP_N8N_WEBHOOK_URL || 'https://n8n.yangomes010.cloud/webhook/api-imobiliaria';
+const WEBHOOK_URL = process.env.REACT_APP_N8N_WEBHOOK_URL;
 
-const API_KEY = (typeof process !== 'undefined' && process.env && process.env.REACT_APP_N8N_API_KEY) || "fallback_temporario";
+const API_KEY = process.env.REACT_APP_N8N_API_KEY;
 
 // Função auxiliar para injetar a segurança em todas as chamadas
 const getHeaders = () => ({
